@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MobileApp xmlns="http://v8.1c.ru/8.3/mobile-application/app" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:bsch="http://v8.1c.ru/8.2/data/bsl" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:chm="http://v8.1c.ru/8.2/data/chart" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dl="http://v8.1c.ru/8.2/managed-application/dynamic-list" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:mf="http://v8.1c.ru/8.3/mobile-application/form" xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:pl="http://v8.1c.ru/8.3/data/planner" xmlns:role="http://v8.1c.ru/8.2/roles" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Конфигурация" id="1b340936-e9b6-4550-804d-d7a2055eff33" formatVersion="2" platformVersion="8.3.13.1513" containerID="bfa2a3ea-f572-4bf5-ba06-c76e4e61d8c9" defaultLanguage="Language.Русский" scriptVariant="Russian">
+	<language name="Русский" id="3a393e0a-8ab9-40b8-81d2-04c69ad80d7a" languageCode="ru">
+		<synonym>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Русский</v8:content>
+			</v8:item>
+		</synonym>
+	</language>
+	<mainModule version="1" startAddr="7">
+		<bsch:cmdOpCode>1,4,18,19,1,1,22,22,22</bsch:cmdOpCode>
+		<bsch:cmdOperand>3,0,1,1,3,4,0,0,0</bsch:cmdOperand>
+		<bsch:constant>SПривет</bsch:constant>
+		<bsch:procedure name="ПриНачалеРаботыСистемы" parametersCount="0" startAddr="0"/>
+		<bsch:procedure name="Сообщить" isExternal="true" parametersCount="2" startAddr="0"/>
+	</mainModule>
+	<sessionModule version="1">
+		<bsch:cmdOpCode>22</bsch:cmdOpCode>
+		<bsch:cmdOperand>0</bsch:cmdOperand>
+	</sessionModule>
+	<startPageWorkingArea>
+		<workingAreaTemplate>TwoColumnsEqualWidth</workingAreaTemplate>
+		<leftColumn>
+			<form>DataProcessor.Тест.Form.Форма</form>
+			<height>10</height>
+		</leftColumn>
+	</startPageWorkingArea>
+	<dataProcessor name="Тест" id="9f0bf593-bad7-4de9-a821-710f56f5d4a9">
+		<synonym>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Тест</v8:content>
+			</v8:item>
+		</synonym>
+		<generatedType name="DataProcessorObject.Тест" category="Object">
+			<xr:TypeId>238bf5cf-6571-48af-ba73-d12694d7d2fd</xr:TypeId>
+			<xr:ValueId>ec5cbf9f-a8ff-4cba-9792-a5ad3863af8f</xr:ValueId>
+		</generatedType>
+		<generatedType name="DataProcessorManager.Тест" category="Manager">
+			<xr:TypeId>11111207-e0d9-42bb-872b-4270d01ef655</xr:TypeId>
+			<xr:ValueId>91288eb8-1600-435c-830e-3f9ed038c441</xr:ValueId>
+		</generatedType>
+		<managerModule version="1">
+			<bsch:cmdOpCode>22</bsch:cmdOpCode>
+			<bsch:cmdOperand>0</bsch:cmdOperand>
+		</managerModule>
+		<objectModule version="1" startAddr="0">
+			<bsch:cmdOpCode>22,22</bsch:cmdOpCode>
+			<bsch:cmdOperand>0,0</bsch:cmdOperand>
+		</objectModule>
+		<defaultForm>DataProcessor.Тест.Form.Форма</defaultForm>
+		<form name="Форма" id="200cdfdd-3945-4fdc-b15a-b443e69001be">
+			<synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Форма</v8:content>
+				</v8:item>
+			</synonym>
+			<form>
+				<mf:serverModule version="1" startAddr="0">
+					<bsch:cmdOpCode>22,22</bsch:cmdOpCode>
+					<bsch:cmdOperand>0,0</bsch:cmdOperand>
+				</mf:serverModule>
+				<mf:clientModule version="1" startAddr="0">
+					<bsch:cmdOpCode>22,22</bsch:cmdOpCode>
+					<bsch:cmdOperand>0,0</bsch:cmdOperand>
+				</mf:clientModule>
+				<mf:serverWOContextModule version="1">
+					<bsch:cmdOpCode>22</bsch:cmdOpCode>
+					<bsch:cmdOperand>0</bsch:cmdOperand>
+				</mf:serverWOContextModule>
+				<mf:clientServerWOContextModule version="1">
+					<bsch:cmdOpCode>22</bsch:cmdOpCode>
+					<bsch:cmdOperand>0</bsch:cmdOperand>
+				</mf:clientServerWOContextModule>
+				<mf:attributes>
+					<mf:attribute name="Объект">
+						<mf:type>
+							<v8:TypeId>238bf5cf-6571-48af-ba73-d12694d7d2fd</v8:TypeId>
+						</mf:type>
+						<mf:main>true</mf:main>
+					</mf:attribute>
+				</mf:attributes>
+				<mf:mainElement>
+					<mf:autoCommandBar name="ФормаКоманднаяПанель" type="AutoCommandBar"/>
+				</mf:mainElement>
+			</form>
+		</form>
+	</dataProcessor>
+	<requiredPermission>
+		<permission>Multimedia</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>Calendars</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>BackgroundAudioPlayback</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>Location</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>Contacts</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>BackgroundLocation</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>Telephony</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>PushNotification</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>LocalNotification</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>Print</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>InAppPurchases</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>Ads</permission>
+		<use>false</use>
+	</requiredPermission>
+	<requiredPermission>
+		<permission>FileExchangeWithPersonalComputer</permission>
+		<use>false</use>
+	</requiredPermission>
+</MobileApp>
