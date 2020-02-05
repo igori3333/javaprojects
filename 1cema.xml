@@ -90,7 +90,7 @@
 	</dataProcessor>
 	<requiredPermission>
 		<permission>Multimedia</permission>
-		<use>false</use>
+		<use>true</use>
 	</requiredPermission>
 	<requiredPermission>
 		<permission>Calendars</permission>
@@ -102,7 +102,7 @@
 	</requiredPermission>
 	<requiredPermission>
 		<permission>Location</permission>
-		<use>false</use>
+		<use>true</use>
 	</requiredPermission>
 	<requiredPermission>
 		<permission>Contacts</permission>
@@ -126,7 +126,7 @@
 	</requiredPermission>
 	<requiredPermission>
 		<permission>Print</permission>
-		<use>false</use>
+		<use>true</use>
 	</requiredPermission>
 	<requiredPermission>
 		<permission>InAppPurchases</permission>
@@ -138,6 +138,6 @@
 	</requiredPermission>
 	<requiredPermission>
 		<permission>FileExchangeWithPersonalComputer</permission>
-		<use>false</use>
+		<use>true</use>
 	</requiredPermission>
 </MobileApp>
